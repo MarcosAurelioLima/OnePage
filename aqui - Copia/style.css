@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+.Cabeçalho{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+    height: 100px;
+}
+
+.Cabeçalho-escrito{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 10px 30px;
+}
+
+.Banner-primario {
+    height: 390px;
+}
+
+.Segunda-parte{
+    
+    display: flex;
+    flex-direction: column column-reverse;
+    background-color: black;
+    height: 550px;
+    margin-top: none
+    ;
+    
+}
+
+.Segunda-parte-titulo{
+    height: 100px;
+    color: white;
+    width: 300px;
+    position: relative;
+    top: 30px;
+    left: 340px;
+}
+
+.Segunda-parte-paragrafo1{
+    height: 100px;
+    color: white;
+    width: 300px;
+    position: relative;
+    top: 95px;
+    left: 107px;
+}
+
+
+.Segunda-parte-foto{
+    
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 150px;
+    right: 260px;
+    border-radius: 15px;
+}
+
+.Segunda-parte-titulo2{
+    height: 100px;
+    color: white;
+    width: 300px;
+    position: relative;
+    top: 80px;
+    right:200px;
+}
+
+.Tamanho{
+    
+    height: 500px;
+    color: white;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    left: 145px}
